@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Social Sites",
     "description": "This extension keeps your all social site platforms altogether.",
-    "version": "1.0.0",
+    "version": "1.0.1",
 
     "icons": {
         "96": "icon_96.png"
