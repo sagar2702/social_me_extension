@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Social Sites",
+    "description": "This extension keeps your all social site platforms altogether.",
+    "version": "1.0.0",
+
+    "icons": {
+        "96": "icon_96.png"
+    },
+    "content_scripts":[
+        {
+           "matches": ["https://*/*", "http://*/*"],
+            "css": ["main.css"]
+        }
+    ],
+
+    "browser_action":{
+        "default_icon": "icon_96.png",
+        "default_popup": "popup.html"
+    }
+}
